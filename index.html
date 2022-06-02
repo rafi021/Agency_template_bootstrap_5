@@ -11,6 +11,7 @@
     ></script>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/custom.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navBarScroll">
     <!--NavBar START-->
@@ -45,13 +46,13 @@
     <section id="home" class="container">
         <div class="row min-vh-100">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start order-1 order-lg-0">
-                <h1 class="fw-bold pb-4 text-center text-lg-start">We offer modern solutions for growing your business</h1>
-                <h3 class="fs-4 pb-4 text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est excepturi accusamus ab suscipit magnam architecto!</h3>
-                <div class="mx-auto mx-lg-0">
+                <h1 class="fw-bold pb-4 text-center text-lg-start" data-aos="fade-up">We offer modern solutions for growing your business</h1>
+                <h3 class="fs-4 pb-4 text-center text-lg-start" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est excepturi accusamus ab suscipit magnam architecto!</h3>
+                <div class="mx-auto mx-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <a href="#about" class="btn btn-info btn-lg text-white">Get Started <i class="fas fa-long-arrow-alt-right ms-3"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 d-flex align-self-center">
+            <div class="col-lg-6 d-flex align-self-center" data-aos="fade-left" data-aos-delay="300">
                 <img src="/assets/media/why-us.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -63,7 +64,7 @@
     <div class="container my-5">
         <div class="row mb-5">
             <div class="col-md-6 col-lg-3 mb-4">
-                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded">
+                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded" data-aos="zoom-in" data-aos-delay="100">
                     <div class="">
                         <i class="far fa-smile fa-3x text-primary"></i>
                     </div>
@@ -74,7 +75,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded">
+                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+                data-aos="zoom-in" data-aos-delay="200">
                     <div class="">
                         <i class="fas fa-trophy fa-3x text-success" aria-hidden="true"></i>
                     </div>
@@ -85,7 +87,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded">
+                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+                data-aos="zoom-in" data-aos-delay="300">
                     <div class="">
                         <i class="fas fa-file-invoice fa-3x text-danger"></i>
                     </div>
@@ -96,7 +99,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded">
+                <div class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+                data-aos="zoom-in" data-aos-delay="400">
                     <div class="">
                         <i class="fas fa-user-friends fa-3x text-info" aria-hidden="true"></i>
                     </div>
@@ -116,14 +120,18 @@
     <section id="about" class="bg-light py-5">
         <div class="container">
             <div class="text-center py-5">
-                <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1">About</h2>
-                <p class="fs-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium provident numquam aliquid veniam ea exercitationem.</p>
+                <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="400"
+                >About</h2>
+                <p class="fs-5 mt-3" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium provident numquam aliquid veniam ea exercitationem.</p>
             </div>
 
             <div class="col-xl-8 mx-auto mb-5">
                 <div class="accordion">
                     <!-- single accordion -->
-                    <div class="accordion-item rounded-3 shadow-sm mb-3">
+                    <div class="accordion-item rounded-3 shadow-sm mb-3" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="500">
                         <h5 class="accordion-header rounded-3 overflow-hidden">
                             <button class="accordion-button collapsed"
                             data-bs-toggle="collapse" data-bs-target="#collapse-1">
@@ -137,7 +145,8 @@
                         </div>
                     </div>
                     <!-- single accordion -->
-                    <div class="accordion-item rounded-3 shadow-sm mb-3">
+                    <div class="accordion-item rounded-3 shadow-sm mb-3" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="600">
                         <h5 class="accordion-header rounded-3 overflow-hidden">
                             <button class="accordion-button collapsed"
                             data-bs-toggle="collapse" data-bs-target="#collapse-2">
@@ -151,7 +160,8 @@
                         </div>
                     </div>
                     <!-- single accordion -->
-                    <div class="accordion-item rounded-3 shadow-sm mb-3">
+                    <div class="accordion-item rounded-3 shadow-sm mb-3" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="600">
                         <h5 class="accordion-header rounded-3 overflow-hidden">
                             <button class="accordion-button collapsed"
                             data-bs-toggle="collapse" data-bs-target="#collapse-3">
@@ -165,7 +175,8 @@
                         </div>
                     </div>
                     <!-- single accordion -->
-                    <div class="accordion-item rounded-3 shadow-sm mb-3">
+                    <div class="accordion-item rounded-3 shadow-sm mb-3" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="700">
                         <h5 class="accordion-header rounded-3 overflow-hidden">
                             <button class="accordion-button collapsed"
                             data-bs-toggle="collapse" data-bs-target="#collapse-4">
@@ -189,14 +200,20 @@
     <!--Services Section START-->
     <section id="services" class="container py-5">
         <div class="text-center py-5">
-            <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1">Services</h2>
-            <div class="fs-5 mt-3">
+            <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1" data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="400">Services</h2>
+            <div class="fs-5 mt-3" data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="400">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsa quos similique nihil amet alias?
             </div>
         </div>
         <div class="row pb-5">
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-success">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-success"
+                data-aos="zoom-in"
+                data-aos-delay="50" data-aos-easing="linear"
+                data-aos-duration="500"
+                >
                     <i class="fa fa-weixin fa-3x text-success pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">Web Design</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -206,7 +223,10 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-danger">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+                data-aos="zoom-in"
+                data-aos-delay="150" data-aos-easing="linear"
+                data-aos-duration="500">
                     <i class="fa fa-gratipay fa-3x text-danger pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">Graphics Design</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -216,7 +236,10 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-info">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-info"
+                data-aos="zoom-in"
+                data-aos-delay="250" data-aos-easing="linear"
+                data-aos-duration="500">
                     <i class="fa fa-tencent-weibo fa-3x text-info pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">Web Development</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -226,7 +249,10 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-warning">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-warning"
+                data-aos="zoom-in"
+                data-aos-delay="350" data-aos-easing="linear"
+                data-aos-duration="500">
                     <i class="fa fa-android fa-3x text-warning pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">App Development</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -236,7 +262,10 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-danger">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-danger"
+                data-aos="zoom-in"
+                data-aos-delay="350" data-aos-easing="linear"
+                data-aos-duration="500">
                     <i class="fa fa-gratipay fa-3x text-danger pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">Graphics Design</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -246,7 +275,10 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="shadow-lg p-5 text-center border-bottom border-4 border-secondary">
+                <div class="shadow-lg p-5 text-center border-bottom border-4 border-secondary"
+                data-aos="zoom-in"
+                data-aos-delay="450" data-aos-easing="linear"
+                data-aos-duration="500">
                     <i class="fa fa-weixin fa-3x text-secondary pb-4 pt-2" aria-hidden="true"></i>
                     <h4 class="fw-bolder fs-3 pb-3">Web Design</h4>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas tempora odit deleniti molestias voluptates.</p>
@@ -316,12 +348,20 @@
     <!--Pricing Section START-->
     <section id="pricing" class="container py-5">
         <div class="text-center py-5">
-            <h2 class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1">Pricing</h2>
-            <p class="fs-3 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, eum id praesentium cum molestias ad quidem aperiam omnis voluptatibus, maiores harum. Libero architecto praesentium beatae deserunt tempora, quod vel aut.</p>
+            <h2 class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1"
+            data-aos="fade-up"
+            data-aos-delay="50" data-aos-easing="linear"
+            data-aos-duration="500">Pricing</h2>
+            <p class="fs-3 mt-3" data-aos="fade-up"
+            data-aos-delay="50" data-aos-easing="linear"
+            data-aos-duration="500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, eum id praesentium cum molestias ad quidem aperiam omnis voluptatibus, maiores harum. Libero architecto praesentium beatae deserunt tempora, quod vel aut.</p>
         </div>
         <div class="row pb-5">
             <div class="col-lg-4 mb-4">
-                <div class="text-center p-5 shadow-lg">
+                <div class="text-center p-5 shadow-lg"
+                data-aos="zoom-in"
+                data-aos-delay="50" data-aos-easing="linear"
+                data-aos-duration="500">
                     <h4 class="fw-bold py-3">Free Plan</h4>
                     <p class="fs-1 fw-bolder mb-0">
                         $00
@@ -341,7 +381,10 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="text-center p-5 shadow-lg border-top border-bottom border-info border-4">
+                <div class="text-center p-5 shadow-lg border-top border-bottom border-info border-4"
+                data-aos="zoom-in"
+                data-aos-delay="100" data-aos-easing="linear"
+                data-aos-duration="500">
                     <h4 class="fw-bold py-3">Single Plan</h4>
                     <p class="fs-1 fw-bolder mb-0">
                         $100
@@ -361,7 +404,10 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="text-center p-5 shadow-lg">
+                <div class="text-center p-5 shadow-lg"
+                data-aos="zoom-in"
+                data-aos-delay="200" data-aos-easing="linear"
+                data-aos-duration="500">
                     <h4 class="fw-bold py-3">Multi Plan</h4>
                     <p class="fs-1 fw-bolder mb-0">
                         $500
@@ -396,5 +442,12 @@
     
 
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 100, // values from 0 to 3000, with step 50ms
+        duration: 700, // values from 0 to 3000, with step 50ms
+      });
+    </script>
   </body>
 </html>
