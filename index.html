@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/custom.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navBarScroll">
     <!--NavBar START-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navBarScroll">
         <div class="container">
             <a href="" class="navbar-brand">Industry</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ms-auto my-3 my-md-0">
+                <ul class="navbar-nav ms-auto my-3 my-md-0 fw-bolder">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Home</a>
                     </li>
@@ -311,6 +311,89 @@
         </div>
     </div>
     <!-- Newsletter section END -->
+
+
+    <!--Pricing Section START-->
+    <section id="pricing" class="container py-5">
+        <div class="text-center py-5">
+            <h2 class="fw-bolder border-bottom border-3 d-inline-block border-info pb-1">Pricing</h2>
+            <p class="fs-3 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, eum id praesentium cum molestias ad quidem aperiam omnis voluptatibus, maiores harum. Libero architecto praesentium beatae deserunt tempora, quod vel aut.</p>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-4 mb-4">
+                <div class="text-center p-5 shadow-lg">
+                    <h4 class="fw-bold py-3">Free Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">
+                        $00
+                    </p>
+                    <p class="text-info fw-bolder">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="text-center p-5 shadow-lg border-top border-bottom border-info border-4">
+                    <h4 class="fw-bold py-3">Single Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">
+                        $100
+                    </p>
+                    <p class="text-info fw-bolder">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item text-decoration-line-through">Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="text-center p-5 shadow-lg">
+                    <h4 class="fw-bold py-3">Multi Plan</h4>
+                    <p class="fs-1 fw-bolder mb-0">
+                        $500
+                    </p>
+                    <p class="text-info fw-bolder">per month</p>
+                    <div class="list py-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Pricing Section END-->
+
+
+    <!--Footer Section START-->
+    <footer class="bg-dark text-white">
+        <div class="container d-flex justify-content-between pt-2">
+            <p class="">All rights reserver &copy; 2022</p>
+            <p class="">Designed by <a class="text-info text-decoration-none" href="#">MIT - Mahmud Ibrahim</a></p>
+        </div>
+    </footer>
+    <!--Footer Section END-->
+    
 
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
   </body>
